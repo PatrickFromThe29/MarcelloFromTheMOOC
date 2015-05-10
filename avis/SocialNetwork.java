@@ -144,7 +144,7 @@ public class SocialNetwork {
 		// Si on arrive ici, c'est que les informations saisies ont été considérées comme acceptables
 		// On entre le pseudo en majuscules et sans ses trailing et leading blanks.
 		members.add(new Member(pseudo.trim(), password, profil));
-		System.out.println(" Un nouveau membre correctement ajouté.");
+		//System.out.println(" Un nouveau membre correctement ajouté.");
 	}
 
 
@@ -220,7 +220,7 @@ public class SocialNetwork {
 		
 		// ====================================== AJOUT D'UN FILM ===============================================	
 		items.add(new Film(titre, genre, realisateur, scenariste, duree));
-		System.out.println("Un nouveau film ajouté avec succès");
+		//System.out.println("Un nouveau film ajouté avec succès");
 	}
 
 	/**
@@ -294,7 +294,7 @@ public class SocialNetwork {
 		
 		// ====================================== AJOUT D'UN BOOK ===============================================	
 		items.add(new Book(titre, genre, auteur, nbPages));
-		System.out.println("Un nouveau livre ajouté avec succès");
+		//System.out.println("Un nouveau livre ajouté avec succès");
 	}
 
 	/**
